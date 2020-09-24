@@ -1,0 +1,76 @@
+body{
+    padding: 30px;
+    margin: 0;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 100px){
+.outer{
+    display: block;
+    height: 80vh;
+    width: 30%;
+    border: 12px solid lightgray;
+    margin: 4% 34% 0% 34%;
+    border-radius: 5px;
+}   
+    
+}
+
+.inner1{
+    height: 50%;
+    width: 100%;
+    background-image: url(https://cdn4.vectorstock.com/i/1000x1000/42/88/red-abstract-background-with-curves-lines-vector-4594288.jpg);
+    background-color: red;
+    color: white;
+    background-size: cover;
+    
+}
+.select{
+    background-color: red;
+    float: right;
+    color: white;
+    border-radius: 3px;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+.inner2{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    
+}
+.inner3{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    
+}
+.d1{
+    height: 92%;
+    width: 50%;
+    background-color: rgb(247, 247, 208);
+    margin:  -4% 2% 0% 4%;
+    border-radius: 5px;
+    
+}
+.d2{
+    height: 92%;
+    width: 50%;
+    background-color: rgb(184, 219, 231);
+    margin: -4% 4% 0% 20%;
+    border-radius: 5px;
+}
+.d3{
+    height: 92%;
+    width: 40%;
+    background-color: lightpink;
+    margin:  2% 2% 0% 4%;
+    border-radius: 5px;
+}
+.d4{
+    height: 92%;
+    width: 40%;
+    background-color: rgb(130, 197, 194);
+    margin: 2% 4% 0% 20%;
+    border-radius: 5px;
+}
