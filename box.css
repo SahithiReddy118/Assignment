@@ -4,7 +4,7 @@ body{
    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-@media screen and (max-width: 100px){
+
 .outer{
     display: block;
     height: 80vh;
@@ -14,7 +14,7 @@ body{
     border-radius: 5px;
 }   
     
-}
+
 
 .inner1{
     height: 50%;
@@ -74,3 +74,13 @@ body{
     margin: 2% 4% 0% 20%;
     border-radius: 5px;
 }
+@media (min-width: 320px) and (max-width: 767px){
+    .outer{
+        display: block;
+        height: 88vh;
+        width: 70%;
+        border: 13px solid lightgray;
+        margin: 4% 15% 1% 15%;
+    }
+}
+        
